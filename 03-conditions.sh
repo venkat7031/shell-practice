@@ -3,7 +3,7 @@
 
 USERID=$(id -u)
 
-if [ "$USERID" -nq 0 ]
+if [ "$USERID" "-nq" 0 ]
 then  
     echo "ERROR: Please run this script with root access"
     #exit 1
@@ -13,7 +13,7 @@ fi
 
 dnf install nginx -y
 
-if [ $USERID -eq 0 ]
+if [ "$USERID" -eq 0 ]
 then
     echo "your running with root access"
 else
