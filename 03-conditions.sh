@@ -19,3 +19,4 @@ then
 else
     echo "ERROR: please run with root access"
     exit 1
+fi
