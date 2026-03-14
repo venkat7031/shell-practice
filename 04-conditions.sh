@@ -2,7 +2,7 @@
 
 NUM=$1
 
-if [ $NUM -gt 6 ]
+if [ "$NUM" -gt 6 ]
 then 
     echo "Given number is true"
 else
