@@ -6,6 +6,7 @@ USERID=$(id -u)
 if [ $USERID -nq 0 ]
 then  
     echo "ERROR: Please run this script with root access"
+    exit 0
 else
     echo "your running with root access"
 fi
