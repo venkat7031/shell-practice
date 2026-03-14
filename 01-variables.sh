@@ -1,10 +1,10 @@
 #!/bin/bash
 
-PERSON1=venky
-PERSON2=chota
+PERSON1=$1
+PERSON2=$2
 
-echo venky:: "how are you"
-echo chota:: "I am fine"
-echo venky:: "what are you doing"
-echo chota:: "nothing"
-echo venky:: "OK"
+echo $1:: "how are you"
+echo $2:: "I am fine"
+echo $1:: "what are you doing"
+echo $2:: "nothing"
+echo $1:: "OK"
