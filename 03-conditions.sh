@@ -12,3 +12,10 @@ else
 fi
 
 dnf install nginx -y
+
+if [ $USERID -eq 0 ]
+then
+    echo "your running with root access"
+else
+    echo "ERROR: please run with root access"
+    exit 1
