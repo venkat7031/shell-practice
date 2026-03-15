@@ -2,5 +2,5 @@
 
 for i in {1..100}
 do 
-    echo "print all the numbers $i"
+    echo "$i"
 done
